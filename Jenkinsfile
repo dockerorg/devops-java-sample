@@ -7,5 +7,11 @@ pipeline {
       }
     }
 
+    stage('build code') {
+      steps {
+        sh 'echo \'i am in build code\''
+      }
+    }
+
   }
 }
